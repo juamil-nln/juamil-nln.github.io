@@ -11,6 +11,7 @@ body {
 
 /* navigation menu */
 nav {
+    border-radius: 30px;
     background: rgb(255, 232, 168);
     margin: 0 auto;
     margin-bottom: 20px;
@@ -34,29 +35,33 @@ h1 {
 }
 a {
     text-decoration: none;
-    color: #ffffff;
+    color:rgb(45, 45, 45) ;
 }
 
 /* main container area beneath menu */
 main {
     background: rgb(255, 232, 168);
-    display: flex;
+    display:flex;
+    width:850px;
+    height: 335px;
+    border:#e2b560 dashed;
+    border-radius: 30px
 }
 .sidebar {
-    margin-right: 25px;
     padding: 10px;
 }
 .sidebar-img {
     width: 200px;
 }
 .content {
+    border-radius: 10px;
     flex: 1;
     padding: 15px;
 }
 
 /* portfolio styles */
 #interests {
-    border: 4px silver ridge;
+    border: dashed 4px silver ridge;
     padding: 8px;
 }
 h2, h3 {
